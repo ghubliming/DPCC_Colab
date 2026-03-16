@@ -1,3 +1,4 @@
+# From Colab log
 ## What's Done vs Remaining
 
 | Seed | Status | Epochs |
@@ -21,6 +22,32 @@ From your logs, each epoch takes **~1:22 avg**:
 | Seed 8 | 100 epochs × 1:22 | **~2h 17min** |
 | Seed 9 | 100 epochs × 1:22 | **~2h 17min** |
 | **Total remaining** | | **~7 hours** |
+
+---
+
+# From Wandb log 
+
+### What's Done vs Remaining
+| Seed    | Status        | Epochs                               |
+|---------|---------------|--------------------------------------|
+| Seed 5  | ✅ COMPLETE   | 0–99 (100 epochs)                   |
+| Seed 6  | 🔄 In progress| 0–65 done, stopped at epoch 66 step 0 |  
+| Seed 7  | ⏳ Not started | —                                   |
+| Seed 8  | ⏳ Not started | —                                   |
+| Seed 9  | ⏳ Not started | —                                   |
+
+---
+
+### Time Estimate
+From your logs in `training_logs_d3il`, each epoch takes approximately **1:22 (82 seconds)** on average.
+
+| Event                 | Calculation                | Time             |
+|-----------------------|----------------------------|------------------|
+| **Seed 6 remaining** | ~34 epochs × 1:22/epoch     | ~47 min          |
+| **Seed 7**           | 100 epochs × 1:22/epoch    | ~2h 17min        |
+| **Seed 8**           | 100 epochs × 1:22/epoch    | ~2h 17min        |
+| **Seed 9**           | 100 epochs × 1:22/epoch    | ~2h 17min        |
+| **Total remaining**  |                            | ~7 hours 38 min |
 
 ---
 
